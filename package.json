@@ -1,0 +1,13 @@
+{
+  "name": "trello-to-asana",
+  "version": "1.0.0",
+  "description": "take a Trello json blob and output a csv compatible with Asana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
