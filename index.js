@@ -7,6 +7,7 @@ const members = m => ({
     'tjmcewan': 'tim@getup.org.au',
 })[m]
 
+// stupid Asana date format: MM/DD/YYYY
 const formatDate = d => d && `${new Date(Date.parse(d)).getMonth() + 1}/${new Date(Date.parse(d)).getDate()}/${new Date(Date.parse(d)).getFullYear()}`
 
 const followers = ms => ms.split(', ').map(members).join(',')
